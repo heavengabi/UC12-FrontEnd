@@ -58,7 +58,7 @@ a {
 /*Classes se declara com . */
 .banner-principal
 {
-    background-image: url(https://i.pinimg.com/1200x/12/35/22/12352232c28fc4bc79e7f8fe1e66dcf8.jpg);
+    background-image: url(https://i.pinimg.com/1200x/3d/9a/9a/3d9a9aae67f9a3ed522733146352a51b.jpg);
     height: 350px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -69,6 +69,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 30px;
+    background-color: rgb(255, 255, 255);
 }
 .personagem-imagem{
     height: 150px;
@@ -76,8 +78,18 @@ a {
     border-radius: 50%;
     background-color: azure;
     overflow: hidden;
+    
 
 }
 .personagem-imagem img{
     height:  100%;
+}
+.borda-azul{
+    border: 5px solid rgb(108, 108, 255);
+
+}
+
+.curso h3{
+    font-size: medium;
+    font: weight 400px;;
 }
