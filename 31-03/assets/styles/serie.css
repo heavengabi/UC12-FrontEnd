@@ -1,0 +1,42 @@
+body
+{
+    background-color:rgba(121, 86, 12, 0.486); /*troca a cor do fundo*/
+    color: rgb(255, 255, 255);  /*troca a cor do fonte*/
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  /*troca a fonte*/
+}
+
+img
+{
+    width: 500px;
+    /*height: 450;* altura do elemento*/
+}
+
+button
+{
+    background-color: blanchedalmond;
+    border: none; /*tira borda*/
+    color: rgb(0, 0, 0); /*muda a cor da fonte*/
+    border-radius: 5px; /*arredonda os cantos*/
+    padding: 5px 10px 5px 10px; /*aumenta os lados no botao a partir do texto*/
+    
+}
+
+button:hover
+{
+    background-color: rgb(255, 255, 255);
+    color: bisque; /*isso aq faz o efeito no texto*/
+    cursor: pointer; /*muda o icone do cursor*/
+
+}
+
+hr{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    height: 5px;
+}
+
+div{
+    display:flex;
+    justify-content: center ;
+    align-items: center;
+}

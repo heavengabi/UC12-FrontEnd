@@ -1,0 +1,83 @@
+
+
+/*Isso aq é pra importar fonte*/
+:root{
+    --fonte-principal:'Nunito',sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: rgb(248, 250, 252);
+    font-family:var(--fonte-principal);
+    font-size: large;
+}
+
+header
+{
+    background-color: rgb(168, 218, 220);
+    padding: 15px 80px 15px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+   
+}
+header a
+{
+    color: rgb(0, 0, 0);
+    margin: 10px;
+}
+
+header i{
+    padding: 15px;
+}
+
+header img
+{
+    border-radius: 200px;
+    width: 5%;
+    
+}
+
+nav
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+a {
+    text-decoration: none;
+    font-size: large;
+}
+/*Classes se declara com . */
+.banner-principal
+{
+    background-image: url(https://i.pinimg.com/1200x/12/35/22/12352232c28fc4bc79e7f8fe1e66dcf8.jpg);
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.personagens{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.personagem-imagem{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: azure;
+    overflow: hidden;
+
+}
+.personagem-imagem img{
+    height:  100%;
+}

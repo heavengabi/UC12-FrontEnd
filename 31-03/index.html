@@ -1,0 +1,49 @@
+<!--
+Html é uma linguagem de MARCAÇÃO, não possui lógica.
+Cada elemento possui uma tag que representa aquele elemento.
+Ou seja, HTML serve apenas para dizer que o que existe em uma página.
+ -->
+
+<!doctype html>
+<!---->
+<html lang="pt-BR">
+  <!--html é a tag que deve envolver todo o documento-->
+  <head>
+    <!--Contém várias info a respeito da página.-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu site</title>
+    <!--Isso é o título da página-->
+  </head>
+  <body>
+    <!--Dentro desta tag é onde vamos criar nossos elementos que vão aparecer para o usuário.-->
+
+    <h1>Sobre HTML</h1> <!--H1 é a tag de titulo principal--> 
+    <h2>O que é HTML</h2> <!--Subtítulo-->
+    <h3> A respeito de linguagem de marcação.</h3> <!--Subtítulo do subtítulo-->
+    <p>HTML, que significa HyperText Markup Language (Linguagem de Marcação de Hipertexto), é a linguagem padrão fundamental utilizada para criar e estruturar páginas e aplicações na web. <br> Ela funciona como o "esqueleto" de um site, organizando conteúdos como textos, imagens, links e vídeos para que os navegadores (como Chrome, Firefox, Safari) saibam como exibi-los ao usuário</p> <!--Aqui fica um texto-->
+
+    <hr> <!--Cria uma linha horizontal-->
+    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">Sobre o HTML</a>  <!--É a tag para links. Ela sempre é acompanhada pelo href="" que indica para qual link ela vai direcionar o usuário. A target="blank" faz com q o link seja aberto em outra guia-->
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/250px-HTML5_logo_and_wordmark.svg.png" alt="SÍMBOLO HTML"> <!--Img é a tag de imagem, ela sempre vem com os atributos src"" que indica a origem da imagem(onde ela ta) e o atributo alt="", deve conter um texto explicativo sobre a imagem. é usado para caso a imagem nao carregue ou por softwares de acessibilidade-->
+
+    <img src="./assets/images/images.jpg" alt="imagem de 3 linguagens html, css e javascript">
+
+    <button>Crica aqui</button>  <!--Cria um botão-->
+
+   <ol> 
+    <li> ol = Lista ordenada, com numeração</li>
+    <li>ITEM </li>
+    <li>ITEM </li>
+   </ol>
+
+   <ul>
+    <li>Lista desordenada, sem numeração</li>
+    <li>ITEM </li>
+    <li>ITEM </li>
+   </ul><!---->
+
+
+  </body>
+</html>
