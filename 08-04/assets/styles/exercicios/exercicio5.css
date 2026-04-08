@@ -1,0 +1,6 @@
+.box1, .box2, .box3{
+    width: 100px;
+    height: 100px;
+    background-color: palevioletred;
+    display: inline-block;
+}

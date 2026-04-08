@@ -1,0 +1,5 @@
+span{
+    width: 200px;
+    background-color: rgb(252, 94, 120);
+}
+/*Não funcionou porque o span tem a propriedade display:inline que fica na mesma linha, se comportando como texto, ai ele nao aceita width nem o height.*/

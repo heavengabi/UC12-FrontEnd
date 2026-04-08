@@ -1,0 +1,7 @@
+a{
+    width: 200px;
+    background: gray;
+    display: inline-block;
+}
+
+/*O elemento a é inline, por isso nao respeita o width. Para corrigir basta colocar o inline-block*/

@@ -1,0 +1,8 @@
+div{
+    background-color: red;
+}
+span{
+    background-color: blue;
+}
+
+/*RESPOSTA EXERCICIO 1: O elemento que ocupa a linha inteira é a DIV. O que fica na mesma linha é o span. */

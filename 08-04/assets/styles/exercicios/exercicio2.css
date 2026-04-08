@@ -1,0 +1,5 @@
+div{
+    background-color: plum;
+    width: 200px;
+}
+/*RESPOSTA EXERCICIO 2: As divs ficam uma abaixo da outra, porque tem a propriedade display:block que ocupa toda a largura disponivel*/

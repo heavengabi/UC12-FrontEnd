@@ -1,0 +1,6 @@
+span{
+    width: 200px;
+    background-color: palevioletred;
+    display: inline-block;
+}
+/*RESPOSTA EXERCICIO 4: O width funcionou. Continua na mesma linha porém, agora ele aceita o width e o height.*/

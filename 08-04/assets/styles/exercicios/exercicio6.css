@@ -1,0 +1,25 @@
+.elemento1
+{
+    width: 150px;
+    height: 80px;
+    background-color: gray; 
+    display: block
+}
+
+.elemento2
+{
+    width: 150px;
+    height: 80px;
+    background-color: gray; 
+    display: inline;
+}
+
+span
+{   
+    width: 150px;
+    height: 80px;
+    background-color: gray; 
+    display: inline-block;
+} 
+
+/*Os elementos que possuem block respeitam o width e o height, ja o inline ignora, como podemos ver no span.*/

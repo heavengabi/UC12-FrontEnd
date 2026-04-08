@@ -1,0 +1,6 @@
+div{
+    background-color: pink;
+    visibility: hidden;
+}
+
+/*O display none remove, ja o visibility hidden só esconde.*/

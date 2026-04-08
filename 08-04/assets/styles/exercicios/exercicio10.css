@@ -1,0 +1,15 @@
+.card{
+    width: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: pink;
+}
+
+h1{
+    display: inline-block;
+}
+button{
+    width: 50px;
+}
+
+/*Coloquei o display inline block no titulo(h1), porque não faz sentido por no button sendo que ele já é inline block.*/
