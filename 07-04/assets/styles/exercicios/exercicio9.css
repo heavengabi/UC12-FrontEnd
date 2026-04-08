@@ -1,0 +1,8 @@
+.box{
+width: 200px;
+padding: 30px;
+border: 10px solid black;
+box-sizing: border-box;
+}
+
+ /*RESPOSTA EXERCICIO 9: O problema é que nao possui o box sizing, assim, quebrando o layout. Corrigi colocando o "box sizing:border-box" que limita o tamanho do elemento*/

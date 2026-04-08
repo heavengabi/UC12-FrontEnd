@@ -1,0 +1,7 @@
+.box1, .box2{
+    height: 100px;
+    margin: 20px;
+    background-color: red;
+}
+
+/*RESPOSTA EXERCICIO 7: Não é 40 porque o margin nao se soma,ele nao se sobrepoe.*/

@@ -1,0 +1,7 @@
+div{
+    width: 200px;
+    background-color: red;
+    margin: auto;
+}
+
+/*RESPOSTA EXERCICIO 6: Se nao por o width ele nao vai entender o que voce quer centralizar, afinal ele ocupa a linha toda.*/

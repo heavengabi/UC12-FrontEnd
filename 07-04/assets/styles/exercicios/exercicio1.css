@@ -1,0 +1,7 @@
+div{
+    width: 200px;
+    background-color: gray;
+    padding: 20px;
+    border: 2px solid black;
+}
+/*RESPOSTA EXERCICIO 1: FICOU MAIOR QUE 200 PORQUE ELE SOMA A BORDA, O PADDING E A LARGURA /*

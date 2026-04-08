@@ -1,0 +1,9 @@
+div{
+    width: 200px;
+    background-color: gray;
+    padding: 20px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+/*RESPOSTA EXERCICIO 2: Quando colocamos o "box sizing:border-box;" ele limita o tamanho que colocamos, ou seja, mesmo que voce altere a border ou o padding, ele mantém o tamanho setado no width*/
