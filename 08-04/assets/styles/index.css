@@ -1,0 +1,16 @@
+.container-pai{
+    background-color: rgb(213, 151, 255);
+    height: 100px;
+    display: flex; /*Torna o elemento com um display flexivel*/
+    flex-direction: row; /*controla a direção dos itens*/
+    justify-content: space-around; /*Controla o alinhamento horizontal*/
+    align-items: center;/*controla o alinhamento */
+    gap: 10px;
+    flex-wrap: wrap;/*Controla se os itens vao ou nao quebrar a linha quando o espaço for insuficiente*/
+}
+.container-pai>div{
+    background-color: rgb(255, 106, 248);
+    height: 20%;
+    width: 150px;
+}
+/*Precisa de um container pai pra ver o resultado nos filhos*/
