@@ -1,39 +1,66 @@
+/* IMPORTS */
 @import url("https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&family=Skranji:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap");
+
+/* RESET */
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
+/* BODY */
 body {
   background-color: rgba(0, 0, 0, 0.911);
+  width: 100%;
 }
 
+/* HEADER */
 header {
   background-color: rgb(0, 0, 0);
-  padding: 15px 80px 15px 80px;
+  padding: 15px 80px;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
 }
+
 ul {
-  color: white;
-  list-style: none;
-  gap: 10px;
   display: flex;
   align-items: center;
+  gap: 10px;
+  list-style: none;
+  color: white;
   font-size: 15px;
+  cursor: pointer;
 }
 
+/* Último item da lista */
+ul li:last-child {
+  color: rgb(255, 0, 0);
+}
+
+/* Hover lista */
+ul li:hover {
+  color: red;
+}
+
+/* IMAGENS */
 img {
   width: 150px;
 }
 
+/* BOTÕES */
 button {
   width: 200px;
 }
 
+button:hover {
+  color: rgb(255, 1, 1);
+}
+
+/* BANNER */
 .banner {
   background-image: url("/14-04/assets/images/Gemini_Generated_Image_uw1avluw1avluw1a.png");
   height: 100vh;
@@ -42,19 +69,20 @@ button {
   background-position: center;
 }
 
+/* TEXTO DO BANNER */
 .clique {
   width: 500px;
   padding: 50px;
 }
 
 .clique h1 {
-  color: rgb(255, 255, 255);
+  color: white;
   font-family: "Skranji", system-ui;
 }
 
 .clique p {
+  color: white;
   font-family: "Nunito", sans-serif;
-  color: rgb(255, 255, 255);
 }
 
 .clique button {
@@ -63,22 +91,30 @@ button {
   height: 40px;
   cursor: pointer;
 }
-button:hover {
-  color: rgb(255, 1, 1);
-}
 
+/* FILMES */
 .filmes {
-    display: flex;
-    justify-content: center; /* Centraliza as imagens na horizontal */
-    align-items: center;     /* Alinha verticalmente se tiverem alturas diferentes */
-    gap: 20px;               /* Dá um espaço entre elas */
-    padding: 20px;
-    width: 100%;             /* Garante que a div use o espaço total */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 20px;
+  width: 100%;
 }
 
-.filmes img {
-    width: 300px;            /* Tamanho fixo para as duas */
-    height: auto;
-    border: 2px solid red;   /* Sua borda que combinamos */
-    box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+.filme {
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.filme img {
+  width: 300px;
+  height: 500px;
+  object-fit: cover;
+  border: 2px solid red;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+}
+
+.filme:hover {
+  transform: scale(1.1);
 }
