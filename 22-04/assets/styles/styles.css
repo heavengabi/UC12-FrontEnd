@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "pixel";
+  src: url(/22-04/assets/fonts/rainyhearts.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+.wallpaper {
+  background-image: url(/22-04/assets/images/ChatGPT\ Image\ 22\ de\ abr.\ de\ 2026\,\ 14_27_59.png);
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.card-pergunta {
+  display: none;
+  font-family: "pixel";
+  text-transform: uppercase;
+  background-color: #1a252f77;
+  padding: 30px;
+  width: 450px;
+  height: 400px;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow:
+    0 20px 60px rgb(255, 121, 80),
+    0 10px 30px rgba(99, 70, 180, 0.363);
+  border: 2px solid #f1c40f86;
+}
+.active{
+  display: flex;
+}
+h1 {
+  font-size: 30px;
+  color: wheat;
+}
+
+button {
+  height: 200px;
+  width: 250px;
+  margin-top: 5px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  text-transform: uppercase;
+  margin-top: 30px;
+  border-color: #fff569;
+  border-radius: 9px;
+  box-shadow: 2px 2px 2px #b3910b73;
+  background-color: #f7ffac;
+  
+}
+button:hover{
+    cursor: pointer;
+}
