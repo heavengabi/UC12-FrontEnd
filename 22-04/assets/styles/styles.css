@@ -8,7 +8,7 @@
   margin: 0;
 }
 .wallpaper {
-  background-image: url(/22-04/assets/images/ChatGPT\ Image\ 22\ de\ abr.\ de\ 2026\,\ 14_27_59.png);
+  background-image: url(/22-04/assets/images/wallpaper.png);
   width: 100vw;
   height: 100vh;
   background-repeat: no-repeat;
@@ -17,6 +17,13 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  flex-direction: column;
+  font-family: "pixel";
+  text-transform: uppercase;
+}
+#pontuar{
+  padding: 20px;
+  color: rgb(255, 255, 255);
 }
 
 .card-pergunta {
@@ -49,13 +56,13 @@ button {
   margin-top: 5px;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
   text-transform: uppercase;
-  margin-top: 30px;
+  margin-top: 20px;
   border-color: #fff569;
   border-radius: 9px;
   box-shadow: 2px 2px 2px #b3910b73;
-  background-color: #f7ffac;
-  
+  background-color: #f7ffac;  
 }
 button:hover{
     cursor: pointer;
 }
+

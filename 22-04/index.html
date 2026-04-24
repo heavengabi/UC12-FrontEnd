@@ -1,75 +1,107 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quiz Until Then</title>
-    <link rel="stylesheet" href="/22-04/assets/styles/styles.css" />
-    <link
-      rel="shortcut icon"
-      href="/22-04/assets/images/16x16.png"
-      type="image/x-icon"
-    />
-  </head>
-  <body>
-    <div class="wallpaper">
-      <div class="card-pergunta active">
-        <h1>Quem é o protagonista principal da história?</h1>
-        <button class="quiz-option">Jake</button>
-        <button class="quiz-option correct">Mark</button>
-        <button class="quiz-option">Nicole</button>
-        <button class="quiz-option">Louise</button>
-        <button class="quiz-option">Jaggy</button>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz Until Then</title>
+  <link rel="stylesheet" href="/22-04/assets/styles/styles.css" />
+  <link rel="shortcut icon" href="/22-04/assets/images/16x16.png" type="image/x-icon" />
+</head>
+<body>
+  <div class="wallpaper">
+    <h1 id="pontuar">Pontos: 0</h1>
 
-      <div class="card-pergunta ">
-        <h1>Em que ambiente grande parte do jogo se passa?</h1>
-        <button class="quiz-option">Universisade</button>
-        <button class="quiz-option correct">Escola</button>
-        <button class="quiz-option">Hospital</button>
-        <button class="quiz-option">Escritório</button>
-        <button class="quiz-option">Praça</button>
-      </div>
-            <div class="card-pergunta ">
-        <h1>Em que ambiente grande parte do jogo se passa?</h1>
-        <button class="quiz-option">Universisade</button>
-        <button class="quiz-option correct">Escola</button>
-        <button class="quiz-option">Hospital</button>
-        <button class="quiz-option">Escritório</button>
-        <button class="quiz-option">Praça</button>
-      </div>
-    </div>
-          <div class="card-pergunta ">
-        <h1>Em que ambiente grande parte do jogo se passa?</h1>
-        <button class="quiz-option">Universisade</button>
-        <button class="quiz-option correct">Escola</button>
-        <button class="quiz-option">Hospital</button>
-        <button class="quiz-option">Escritório</button>
-        <button class="quiz-option">Praça</button>
-      </div>
-    </div>
-          <div class="card-pergunta ">
-        <h1>Em que ambiente grande parte do jogo se passa?</h1>
-        <button class="quiz-option">Universisade</button>
-        <button class="quiz-option correct">Escola</button>
-        <button class="quiz-option">Hospital</button>
-        <button class="quiz-option">Escritório</button>
-        <button class="quiz-option">Praça</button>
-      </div>
-    </div>
-          <div class="card-pergunta ">
-        <h1>Em que ambiente grande parte do jogo se passa?</h1>
-        <button class="quiz-option">Universisade</button>
-        <button class="quiz-option correct">Escola</button>
-        <button class="quiz-option">Hospital</button>
-        <button class="quiz-option">Escritório</button>
-        <button class="quiz-option">Praça</button>
-      </div>
-    </div>
-    
+    <div class="card-pergunta active">
+      <h1>Quem é o protagonista principal que controlamos na maior parte da história?</h1>
+      <button class="quiz-option">Jake</button>
+      <button class="quiz-option correct">Mark Borja</button>
+      <button class="quiz-option">Cathy</button>
+      <button class="quiz-option">Ryan</button>
+      <button class="quiz-option">Louise</button>
     </div>
 
+    <div class="card-pergunta">
+      <h1>Em qual país a história de 'Until Then' é ambientada?</h1>
+      <button class="quiz-option">Japão</button>
+      <button class="quiz-option">Coreia do Sul</button>
+      <button class="quiz-option correct">Filipinas</button>
+      <button class="quiz-option">Tailândia</button>
+      <button class="quiz-option">Indonésia</button>
+    </div>
 
-    <script src="/22-04/assets/scripts/index.js"></script>
-  </body>
+    <div class="card-pergunta">
+      <h1>Qual é a grande paixão e talento de Mark que ele pratica em casa?</h1>
+      <button class="quiz-option">Pintura digital</button>
+      <button class="quiz-option">Programação de jogos</button>
+      <button class="quiz-option">Culinária</button>
+      <button class="quiz-option correct">Tocar piano</button>
+      <button class="quiz-option">Escrita de poesias</button>
+    </div>
+
+    <div class="card-pergunta">
+      <h1>Como são chamados os eventos estranhos onde a realidade parece "quebrar" ou se repetir?</h1>
+      <button class="quiz-option">Efeito Mandela</button>
+      <button class="quiz-option correct">The Ruling (O Julgamento / Fenômeno)</button>
+      <button class="quiz-option">Glitches de Memória</button>
+      <button class="quiz-option">O Grande Apagão</button>
+      <button class="quiz-option">Loop Infinito</button>
+    </div>
+
+    <div class="card-pergunta">
+      <h1>Qual rede social fictícia é usada pelos personagens para postar fotos e ver notícias?</h1>
+      <button class="quiz-option">Instagrid</button>
+      <button class="quiz-option">Faceplace</button>
+      <button class="quiz-option">Twitter</button>
+      <button class="quiz-option correct">Snicklefritz (ou apenas a rede de feed do jogo)</button>
+      <button class="quiz-option">Tiktok</button>
+    </div>
+
+    <div class="card-pergunta">
+      <h1>Qual é o nome da melhor amiga de Mark, que é muito energética e fã de redes sociais?</h1>
+      <button class="quiz-option">Nicole</button>
+      <button class="quiz-option correct">Cathy</button>
+      <button class="quiz-option">Louise</button>
+      <button class="quiz-option">Sofia</button>
+      <button class="quiz-option">Maria</button>
+    </div>
+
+<div class="card-pergunta">
+      <h1>Como Mark se sustenta financeiramente, já que vive sozinho?</h1>
+      <button class="quiz-option">Ele trabalha meio período em uma loja</button>
+      <button class="quiz-option correct">Seus pais trabalham no exterior e mandam dinheiro</button>
+      <button class="quiz-option">Ele vive de uma herança deixada pela avó</button>
+      <button class="quiz-option">Ele ganha dinheiro como pianista profissional</button>
+      <button class="quiz-option">O governo subsidia seus estudos e moradia</button>
+    </div>
+
+    <div class="card-pergunta">
+      <h1>Qual sentimento central a narrativa explora através do luto de Mark?</h1>
+      <button class="quiz-option">Vingança contra o destino</button>
+      <button class="quiz-option">Desejo de fama</button>
+      <button class="quiz-option correct">Aceitação e a dor da perda</button>
+      <button class="quiz-option">Medo de crescer</button>
+      <button class="quiz-option">Ódio pela escola</button>
+    </div>
+
+    <div class="card-pergunta">
+      <h1>A estética visual do jogo é marcante por misturar:</h1>
+      <button class="quiz-option">Gráficos 3D realistas com filtros antigos</button>
+      <button class="quiz-option correct">Pixel art detalhada com iluminação moderna</button>
+      <button class="quiz-option">Apenas desenhos feitos à mão (estilo anime)</button>
+      <button class="quiz-option">Modelos de argila (claymation)</button>
+      <button class="quiz-option">Imagens reais processadas por IA</button>
+    </div>
+
+    <div class="card-pergunta">
+      <h1>Para progredir na história e descobrir o final verdadeiro, o jogador precisa:</h1>
+      <button class="quiz-option">Terminar o jogo em menos de 2 horas</button>
+      <button class="quiz-option">Encontrar todos os colecionáveis escondidos</button>
+      <button class="quiz-option">Ganhar todas as partidas de videogame com Jake</button>
+      <button class="quiz-option correct">Jogar múltiplos "ciclos" (New Game+)</button>
+      <button class="quiz-option">Não errar nenhuma resposta na escola</button>
+    </div>
+  </div>
+
+  <script src="/22-04/assets/scripts/index.js"></script>
+</body>
 </html>

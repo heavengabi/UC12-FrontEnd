@@ -1,0 +1,23 @@
+.base {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.card img {
+  width: 200px;
+  height: 200px;
+}
+.card {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+button{
+margin-top: 20px;
+}
+
+.ativar{
+  visibility: hidden;
+}

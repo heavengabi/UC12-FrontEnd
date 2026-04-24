@@ -27,7 +27,24 @@ const buttons = document.querySelectorAll(".quiz-option");
 for (let i = 0; i < buttons.length; i++) {
   buttons[i].addEventListener("click", () => {
     const isCorrect = buttons[i].classList.contains("correct");
-    console.log(isCorrect)
+    console.log(isCorrect);
     answer(isCorrect);
   });
 }
+
+let pontos = 0;
+
+const pontuar = document.getElementById("pontuar");
+function somarPontos() {
+  pontos++;
+  pontuar.textContent = `Pontos: ${pontos}`;
+}
+//esse foreach percorre o array de botoes
+//o add event é pra coisar o click, ai quando clica puxa a função(‾◡◝)
+buttons.forEach((buttons) => {
+  buttons.addEventListener("click", () => {
+    if (buttons.classList.contains("correct")) {
+      somarPontos();
+    }
+  });
+});
