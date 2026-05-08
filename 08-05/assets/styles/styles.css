@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+}
+
+.container-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.container-menu nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.container-menu nav a:hover {
+  color: red;
+}
+.container-menu nav {
+  gap: 20px;
+}
+.logo {
+  width: 200px;
+}
+
+.btn-zap {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  width: 60px;
+}
+
+.container-cart {
+  position: relative;
+}
+.container-cart span {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: red;
+  font-size: 8px;
+  border-radius: 50%;
+  padding: 2px 5px;
+  color: white;
+}
+
+.menu {
+  background-color: rgb(0, 0, 0);
+  position: relative;
+}
+
+.menu-drop {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  visibility: hidden;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.menu-drop a:hover {
+  color: red;
+}
+.menu-drop a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  display: flex;
+}
+.menu:hover .menu-drop {
+  background-color: rgb(0, 0, 0);
+  visibility: visible;
+  color: red;
+}
