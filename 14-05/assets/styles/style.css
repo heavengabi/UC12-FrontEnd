@@ -1,0 +1,32 @@
+/* button {
+  background-color: #ff6600;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  transition: all 0.5s ease;
+}
+button:hover{
+    background-color: #cc5200;
+    border-radius: 2px;
+    transform: scale(1.1);
+}
+ */
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.box {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+.box.visible {
+    animation: slideIn 2s ease forwards;
+}
