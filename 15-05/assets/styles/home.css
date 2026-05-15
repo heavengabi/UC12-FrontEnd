@@ -4,19 +4,7 @@
     box-sizing: border-box;
 }
 
-.container-pai{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    background-color: rgb(237, 167, 255);
-    height: 30vh;
-    flex-wrap: wrap;
-}
-.container-filho{
-    background-color: rgb(250, 117, 255);
-    padding: 50px;
-}
+/* ================= HEADER ================= */
 
 header{
     background-color: rgb(240, 72, 255);
@@ -25,6 +13,7 @@ header{
     align-items: center;
     color: white;
     padding: 20px 40px;
+    position: relative;
 }
 
 header a{
@@ -32,28 +21,87 @@ header a{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1.3rem;
-    margin: 0px 10x;
-    
+    margin: 0 10px;
 }
 
-.hidden{
+/* ================= MENU MOBILE ================= */
+
+.menu-mobile{
     display: none;
+    font-size: 2rem;
+
 }
-/*========================================================================*/
+
+.visible{
+    visibility: visible;
+    opacity: 1;
+}
+
+/* ================= CONTEÚDO ================= */
+
+.container-pai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(237, 167, 255);
+    min-height: 70vh;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.container-filho{
+    background-color: rgb(250, 117, 255);
+    padding: 50px;
+    border-radius: 10px;
+    min-width: 200px;
+    text-align: center;
+    color: white;
+}
+
+/* ================= RESPONSIVO ================= */
+
 @media(max-width:800px){
+
+    header{
+        padding: 20px;
+    }
+
+    .menu-mobile{
+        display: block;
+    }
+
+    header nav{
+        position: absolute;
+        top: 80px;
+        right: 20px;
+        background-color: rgb(240, 72, 255);
+        border-radius: 10px;
+        width: 180px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.3s;
+    }
+
+    header nav a{
+        margin: 0;
+        border-bottom: 1px solid rgba(246, 177, 255, 0.705);
+    }
+
     .container-pai{
         flex-direction: column;
-        height: 200vh;
-    }
-    .container-filho{
-        min-width: 80vw;
-        height: 80vw;
-    }
-    .menu-mobile{
-        display: flex;
-    }
-    header nav{
-        display: none;
+        min-height: 100vh;
     }
 
+    .container-filho{
+        width: 90%;
+        height: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
